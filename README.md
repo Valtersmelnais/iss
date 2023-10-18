@@ -8,15 +8,20 @@ Dators nejauši ģenere vienu skaitli no 1 līdz 100.
 
 Spēles loģika ir labi aprakstīta sājā kodā:
 ### 3 un t.t.
-import random
 
+
+  
+    
+    
+    import random
+    
 repeat = True
 
 while repeat:
     number = random.randint(1, 100)
     guess = 0
     tries = 0
-
+    
     while guess != number:
         if guess < number:
             print("Pamēģini lielāku skaitli.")
